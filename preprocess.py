@@ -3,7 +3,7 @@ from nltk.corpus import stopwords
 
 stop_words = set(stopwords.words('english'))
 
-def preprocess(text):
+def preprocess_text(text):
     
     text = text.lower()
 
